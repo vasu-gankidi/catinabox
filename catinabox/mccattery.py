@@ -8,7 +8,7 @@ class McCattery(Cattery):
     """A more analytics-centered verison of the Cattery."""
 
     def __init__(self):
-        super(McCattery, self).__init__()
+        super(McCattery, self).__init__() # This is equivalent to super().init
         self._history = []
 
     @property

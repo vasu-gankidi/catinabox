@@ -3,8 +3,9 @@ pyflakes>=1.0.0
 pytest-cov>=2.1.0
 pytest-flakes>=1.0.1
 pytest-mccabe>=0.1
-pytest-pep8>=1.0.6
+pytest-pep8==1.0.6
 pytest-mock>=0.10.1
 pytest>=2.8.2
 six>=1.9.0
 requests
+setuptools<72.0.0
